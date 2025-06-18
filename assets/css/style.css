@@ -7,7 +7,11 @@
 }
 
 /*Utility*/
+.ml-15 {
+  margin-left: 15px;
+}
 
+.border-green-left
 /*Leyout*/
 
 .row {
@@ -29,9 +33,36 @@ main {
   background-color: #000000;
 }
 
+.logo {
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+  color: white;
+}
+
+.menu-laterale {
+  color: #D1D1D1;
+}
+
+.menu-laterale li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.menu-laterale li img {
+  height: 30px;
+}
+
+.menu-laterale li span {
+  margin: 10px;
+}
+
+
 /*header*/
 header {
-  height: 80px;
+  height: 90px;
   background-color: rgba(0, 0, 0, 0.7);
   position: sticky;
   top: 0;
@@ -58,7 +89,6 @@ header {
   color: white;
   position: relative;
 }
-
 
 
 
