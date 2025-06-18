@@ -30,6 +30,10 @@ body {
   align-items: center;
 }
 
+.gap-10 {
+  gap: 10px;
+}
+
 
 /*Leyout*/
 
@@ -38,8 +42,8 @@ body {
   flex-wrap: wrap;
 }
 
-.col-16 {
-  width: 16%;
+.col-15 {
+  width: 15%;
 }
 
 /*Main*/
@@ -228,6 +232,7 @@ header {
   color: white;
   text-align: center;
   margin-top: 10px;
+  font-size: 15px;
 }
 
 .card p {
