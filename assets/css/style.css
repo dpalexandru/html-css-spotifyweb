@@ -59,6 +59,39 @@ main {
   margin: 10px;
 }
 
+.playlist {
+  color: #D1D1D1;
+}
+
+.playlist h2 {
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.playlist li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.crea-playlist {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  cursor: pointer;
+}
+
+.add-playlist {
+  color: white;
+  font-size: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
 
 /*header*/
 header {
