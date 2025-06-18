@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
 /*Utility*/
 .p-5 {
   padding: 5px;
@@ -31,6 +36,10 @@
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.col-16 {
+  width: 16%;
 }
 
 /*Main*/
@@ -200,6 +209,52 @@ header {
   margin-top: 10px;
   background: #1ED760;
 }
+
+/*music-section */
+.music-section {
+  margin: 0 15px;
+}
+
+.card {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h4 {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card p {
+  color: #888888;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+}
+
+
+.img-container::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6) url('../img/play.png') center center no-repeat;
+  background-size: 40px 40px;
+  opacity: 0;
+}
+
+.img-container:hover::after {
+  opacity: 1;
+}
+
 
 
 /*Footer*/
