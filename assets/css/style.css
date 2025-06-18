@@ -7,6 +7,10 @@
 }
 
 /*Utility*/
+.p-5 {
+  padding: 5px;
+}
+
 .ml-15 {
   margin-left: 15px;
 }
@@ -123,7 +127,11 @@ main {
 }
 
 .hr-gray {
-  margin: 10px 0;
+  margin: 5px 0;
+  margin-right: 20px;
+  border: none;
+  height: 1px;
+  background-color: #888888
 }
 
 
@@ -158,6 +166,40 @@ header {
   position: relative;
 }
 
+/*Esplora section*/
+.esplora {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.esplora ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+.esplora ul li a {
+  text-decoration: none;
+  color: #888888;
+  font-size: 14px;
+  padding-bottom: 5px;
+  position: relative;
+
+}
+
+.border-green::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: 45%;
+  height: 2px;
+  margin-top: 10px;
+  background: #1ED760;
+}
 
 
 /*Footer*/
