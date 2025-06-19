@@ -40,6 +40,20 @@ body {
   align-items: center;
 }
 
+.flex-align-right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
 .gap-10 {
   gap: 10px;
 }
@@ -62,6 +76,14 @@ body {
 
 .col-15 {
   width: 15%;
+}
+
+.col-5px {
+  width: 5%;
+}
+
+.col-80 {
+  width: 80%;
 }
 
 .col-20 {
@@ -341,8 +363,49 @@ footer {
   margin: 3px;
 }
 
+.icone-elenco {
+  width: 40%;
+}
+
 .icone-elenco i {
   color: white;
   margin: 3px;
+}
 
+.volume {
+  background-color: gray;
+  width: 40%;
+  height: 4px;
+  border-radius: 5px;
+}
+
+.volume-effettivo {
+  background-color: white;
+  width: 30%;
+  height: 4px;
+  border-radius: 5px;
+}
+
+.volume-btn {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.volume-player span {
+  color: white;
+  margin: 0 20px;
+}
+
+.btn-control {
+  color: white;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.play-btn {
+  color: white;
+  font-size: 25px;
+  margin: 10px;
 }
