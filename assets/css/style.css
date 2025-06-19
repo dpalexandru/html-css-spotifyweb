@@ -316,3 +316,33 @@ footer {
   background-color: #282828;
   display: flex;
 }
+
+.footer-left img {
+  width: 50px;
+  margin: 5px;
+}
+
+.footer-left h5 {
+  color: white;
+
+}
+
+.footer-left span {
+  color: #888888;
+  font-size: 12px;
+}
+
+.icone-like {
+  color: #888888;
+  margin-left: 30px;
+}
+
+.icone-like i {
+  margin: 3px;
+}
+
+.icone-elenco i {
+  color: white;
+  margin: 3px;
+
+}
