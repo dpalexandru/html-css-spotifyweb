@@ -7,7 +7,7 @@
 
 }
 
-/*Smartphone*/
+/*Smartphone large*/
 
 @media (max-width: 767px) {
   .col-15 {
@@ -23,6 +23,14 @@
 /*Smartphone xs*/
 
 @media (max-width: 575px) {
+  #sidebar {
+    width: 70px;
+  }
+
+  #content {
+    width: calc(100vw - 70px);
+  }
+
   .logo-img {
     display: none;
   }
@@ -30,6 +38,23 @@
   .logo-sm {
     display: initial;
 
+  }
+
+  .xs {
+    display: none;
+  }
+
+  .logo {
+    height: 65px;
+  }
+
+  .profilo-name-img {
+    margin: 20px 0;
+    margin-left: 5px;
+  }
+
+  .download-btn {
+    margin-left: 7px;
   }
 
 }
