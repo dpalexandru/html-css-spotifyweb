@@ -16,6 +16,10 @@ body {
   padding: 5px;
 }
 
+.pl-15 {
+  padding-left: 15px;
+}
+
 .ml-15 {
   margin-left: 15px;
 }
@@ -32,6 +36,14 @@ body {
 
 .gap-10 {
   gap: 10px;
+}
+
+.border-left-green {
+  border-left: 1px solid #1ED760;
+}
+
+.border-radius-50 {
+  border-radius: 50%;
 }
 
 
@@ -249,11 +261,16 @@ header {
 
 .img-container::after {
   content: '';
+  cursor: pointer;
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.6) url('../img/play.png') center center no-repeat;
   background-size: 40px 40px;
   opacity: 0;
+}
+
+.overlay-radius::after {
+  border-radius: 50%;
 }
 
 .img-container:hover::after {
