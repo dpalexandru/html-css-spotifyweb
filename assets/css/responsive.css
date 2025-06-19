@@ -1,0 +1,8 @@
+/*Tablet*/
+
+@media (max-width: 991px) {
+  .col-15 {
+    width: 23%
+  }
+
+}
