@@ -130,6 +130,12 @@ main {
   color: white;
 }
 
+.logo-sm {
+  width: 50px;
+  display: none;
+
+}
+
 .menu-laterale {
   color: #888888;
 }

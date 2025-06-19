@@ -6,3 +6,30 @@
   }
 
 }
+
+/*Smartphone*/
+
+@media (max-width: 767px) {
+  .col-15 {
+    width: 45%
+  }
+
+  .logo-sm {
+    display: none;
+
+  }
+}
+
+/*Smartphone xs*/
+
+@media (max-width: 575px) {
+  .logo-img {
+    display: none;
+  }
+
+  .logo-sm {
+    display: initial;
+
+  }
+
+}
