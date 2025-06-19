@@ -24,8 +24,14 @@ body {
   margin-left: 15px;
 }
 
+.mt-40 {
+  margin-top: 40px;
+}
+
+
+
 .color-lightgray {
-  color: #D1D1D1;
+  color: #888888;
 }
 
 .flex-align-center {
@@ -73,7 +79,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 
 .logo {
@@ -118,6 +124,10 @@ main {
   align-items: center;
   padding: 8px;
   cursor: pointer;
+}
+
+.download-btn {
+  filter: grayscale(100%) brightness(0.5);
 }
 
 .crea-playlist {
@@ -170,6 +180,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  z-index: 1;
 }
 
 .cta-button {
@@ -231,6 +242,8 @@ header {
   margin: 0 15px;
 }
 
+
+
 .card {
   width: 100%;
   margin-top: 20px;
@@ -253,6 +266,11 @@ header {
   margin-top: 10px;
 }
 
+.suggerimenti {
+  color: #888888;
+  margin-top: 5px;
+}
+
 .img-container {
   position: relative;
   width: 100%;
@@ -265,7 +283,7 @@ header {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.6) url('../img/play.png') center center no-repeat;
-  background-size: 40px 40px;
+  background-size: 45px 45px;
   opacity: 0;
 }
 
