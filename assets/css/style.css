@@ -396,10 +396,29 @@ footer {
   width: calc(30%);
   background-color: antiquewhite;
   max-width: 200px;
+  gap: 6px;
 }
 
 .footer-lm {
   height: 100%;
   width: calc(40%);
   background-color: azure;
+}
+
+.footer-sm img {
+  width: 45px;
+}
+
+.footer-sm h5 {
+  color: white;
+}
+
+.footer-sm span {
+  color: gray;
+  font-size: 10px;
+}
+
+.titolo-brano {
+  display: flex;
+  flex-direction: column;
 }
