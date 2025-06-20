@@ -408,7 +408,7 @@ footer {
 .footer-lm {
   height: 100%;
   width: calc(40%);
-  background-color: azure;
+  background-color: black;
 }
 
 .footer-sm img {
@@ -441,4 +441,34 @@ footer {
   width: 85px;
   margin-right: 5px;
 
+}
+
+.footer-lm-superiore i {
+  color: white;
+  font-size: 27px;
+  margin: 5px 8px;
+
+}
+
+.footer-lm-superiore .play-btn {
+  font-size: 40px;
+}
+
+.footer-lm-inferiore {
+  color: white;
+  font-size: 14px;
+}
+
+.player-ad {
+  background-color: gray;
+  height: 5px;
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+
+.footer-lm-inferiore {
+  display: flex;
+  align-items: center;
 }
