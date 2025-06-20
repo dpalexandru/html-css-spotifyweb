@@ -487,3 +487,41 @@ footer i {
 .play-btn:hover {
   transform: scale(1.1);
 }
+
+.vlm-effettivo {
+  background-color: white;
+  border-radius: 10px;
+  height: 5px;
+  width: 30%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+
+}
+
+.btn-volume {
+  height: 13px;
+  width: 13px;
+  background-color: white;
+  border-radius: 50%;
+  display: none;
+}
+
+.volume-sm:hover .btn-volume {
+  display: inline;
+  cursor: pointer;
+}
+
+.volume-sm:hover .vlm-effettivo {
+  background-color: #1ED760;
+}
+
+.player-ad:hover .btn-volume {
+  display: inline;
+  cursor: pointer;
+}
+
+.player-ad:hover .vlm-effettivo {
+  background-color: #1ED760;
+}
