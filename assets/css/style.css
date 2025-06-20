@@ -387,4 +387,19 @@ footer {
   height: 80px;
   background-color: #282828;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-sm {
+  height: 100%;
+  width: calc(30%);
+  background-color: antiquewhite;
+  max-width: 200px;
+}
+
+.footer-lm {
+  height: 100%;
+  width: calc(40%);
+  background-color: azure;
 }
